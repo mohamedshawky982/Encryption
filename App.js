@@ -72,7 +72,7 @@ const regularEx = /^[a-zA-Z]+$/
 const ALGORITHMS = [
     { name: "Affine", value: Algorithms.AFFINE },
     { name: "Vigenere", value: Algorithms.VIGENERE },
-    { name: "Cipher", value: Algorithms.CIPHER },
+    { name: "Caeser", value: Algorithms.CIPHER },
 
 ]
 

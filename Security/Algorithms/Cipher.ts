@@ -7,7 +7,7 @@ export default function cipherAlgorithm(word:string, string:string) {
         let cipherLetter = (indexOfLetter + key) % string.length
         encryptedWord += string.charAt(cipherLetter)
     }
-
+ 
 
     word = ""
     for (let i = 0; i < encryptedWord.length; i++) {

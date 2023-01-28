@@ -6,6 +6,7 @@ export default function vigenereAlgorithm(word:string,string:string) {
     let vigenereEncryptedWord = ""
     let lastKeyIndex = -1
 
+    
     // this loop handles key to be suitable to word (with the same length)
     for (let i = 0; i < vigenereWord.length; i++) {
         if (!(vigenereWord[i] && vigenereKey[i]))
